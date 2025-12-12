@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-12-12 16:04:00",
+  "results": {
+    "LightweightIsolationForest": {
+      "metrics": {
+        "accuracy": 0.8195,
+        "precision": 0.5286343612334802,
+        "recall": 0.9,
+        "f1_score": 0.666049953746531,
+        "confusion_matrix": [
+          [
+            1279,
+            321
+          ],
+          [
+            40,
+            360
+          ]
+        ],
+        "false_positive_rate": 0.200625,
+        "false_negative_rate": 0.1
+      },
+      "benchmark": {
+        "avg_inference_time_ms": 2.0177149772644043,
+        "max_inference_time_ms": 2.4728775024414062,
+        "min_inference_time_ms": 1.8820762634277344,
+        "std_inference_time_ms": 0.09605644056306757,
+        "memory_usage_mb": 385.953125
+      }
+    },
+    "LightweightAutoEncoder": {
+      "metrics": {
+        "accuracy": 0.951,
+        "precision": 0.8132780082987552,
+        "recall": 0.98,
+        "f1_score": 0.8888888888888888,
+        "confusion_matrix": [
+          [
+            1510,
+            90
+          ],
+          [
+            8,
+            392
+          ]
+        ],
+        "param_count": 152,
+        "false_positive_rate": 0.05625,
+        "false_negative_rate": 0.02
+      },
+      "benchmark": {
+        "avg_inference_time_ms": 0.04828691482543945,
+        "max_inference_time_ms": 0.11682510375976562,
+        "min_inference_time_ms": 0.03886222839355469,
+        "std_inference_time_ms": 0.013348777326588415,
+        "memory_usage_mb": 386.078125,
+        "param_count": 152
+      }
+    },
+    "KNN": {
+      "metrics": {
+        "accuracy": 0.993,
+        "precision": 0.9974226804123711,
+        "recall": 0.9675,
+        "f1_score": 0.9822335025380711,
+        "confusion_matrix": [
+          [
+            1599,
+            1
+          ],
+          [
+            13,
+            387
+          ]
+        ],
+        "false_positive_rate": 0.000625,
+        "false_negative_rate": 0.0325
+      },
+      "benchmark": {
+        "avg_inference_time_ms": 0.31094789505004883,
+        "max_inference_time_ms": 0.5397796630859375,
+        "memory_usage_mb": 386.171875
+      }
+    },
+    "SVM": {
+      "metrics": {
+        "accuracy": 0.995,
+        "precision": 1.0,
+        "recall": 0.975,
+        "f1_score": 0.9873417721518988,
+        "confusion_matrix": [
+          [
+            1600,
+            0
+          ],
+          [
+            10,
+            390
+          ]
+        ],
+        "false_positive_rate": 0.0,
+        "false_negative_rate": 0.025
+      },
+      "benchmark": {
+        "avg_inference_time_ms": 0.0686788558959961,
+        "max_inference_time_ms": 0.11491775512695312,
+        "memory_usage_mb": 386.203125
+      }
+    }
+  }
+}
