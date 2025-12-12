@@ -1,0 +1,14 @@
+duration
+orig_bytes
+resp_bytes
+orig_pkts
+resp_pkts
+orig_ip_bytes
+resp_ip_bytes
+proto_encoded
+service_encoded
+conn_state_encoded
+bytes_ratio
+pkts_ratio
+bytes_per_second
+pkts_per_second
